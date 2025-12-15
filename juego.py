@@ -11,7 +11,7 @@ import webbrowser
 
 # --- Actualización -------------------------------------------------------------------------------------
 
-version_actual = "1.12" # Subimos versión por la mejora
+version_actual = "1.13" # Subimos versión por la mejora
 usuario = "sys-T-a11y" 
 repositorio = "En-Par-" 
 MODO_ACCESIBLE = False  # Variable global para controlar el modo visual (A11y)
@@ -202,6 +202,7 @@ def jugar_versus(nombres):
     # elegir dificultad
     limpiar_pantalla()
     while True:
+        print("¬" * 40, "\n")
         print("[1] FACIL (4x4)\n[2] NORMAL (6x6)\n[3] DIFICIL (8x8)\n")
         dif = input("Dificultad (0 para cancelar): ")
         if dif == '0':
