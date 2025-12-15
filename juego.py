@@ -17,7 +17,7 @@ version_actual = "1.0"
 usuario = "vamotesdragons546-a11y" 
 repositorio = "En-Par-" 
 
-URL_VERSION = f"https://raw.githubusercontent.com/{usuario}/{rapositorio}/main/version.txt"
+URL_VERSION = f"https://raw.githubusercontent.com/{usuario}/{repositorio}/main/version.txt"
 URL_REPO = f"https://github.com/{usuario}/{repositorio}"
 
 def verificar_actualizacion():
